@@ -1,4 +1,4 @@
-# SIGNATE 医療保険の費用帯予測
+# SIGNATE <br> 医療保険の費用帯予測
 2025 / 6 / 27
 
 ## OverView
@@ -12,14 +12,14 @@
 ## 特徴量定義
 | 特徴量名  | データ型  | データ範囲                             | 概要                   |
 |-----------|-----------|----------------------------------------|------------------------|
-| id        | int64     | 0 ~ 1999 | 一意に識別するID       |
-| age       | int64     | 18 ~ 64 | 年齢                   |
-| sex       | object    | male, female | 性別                   |
-| bmi       | float64   | 20.63 ~ 47.29 | BMI                    |
-| children  | int64     | 1 ~ 5 | 子供の人数             |
-| smoker    | object    | yes, no | 喫煙の有無             |
+| id        | int64     | 0 ~ 1999 | 一意に識別するID |
+| age       | int64     | 18 ~ 64 | 年齢 |
+| sex       | object    | male, female | 性別 |
+| bmi       | float64   | 20.63 ~ 47.29 | BMI |
+| children  | int64     | 1 ~ 5 | 子供の人数 |
+| smoker    | object    | yes, no | 喫煙の有無 |
 | region    | object    | northeast, northwest, southeast, southwest | 地区 |
-| charges   | int64     | 0, 1, 2 | 目的変数               |
+| charges   | int64     | 0, 1, 2 | 目的変数 |
 
 
 
