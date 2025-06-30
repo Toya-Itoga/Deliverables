@@ -23,7 +23,7 @@
 
 
 
-## 前処理, 特徴量エンジニアリング内容
+## 前処理・特徴量エンジニアリング内容
 ### カテゴリ変換
 　- sex　 ：male / female → 1 / 0 <br>
 　- smoker：yes / no → 1 / 0
@@ -34,13 +34,13 @@
 　- bmi：標準化
 
 ## プロセス
-1. 前処理, 特徴量エンジニアリング
+1. 前処理, 特徴量エンジニアリング <br>
 　- カテゴリ変換、数値変数の標準化
-2. ベースライン設定（LogisticRegressionm）
+2. ベースライン設定（LogisticRegressionm） <br>
 　- LogisticRegression（0.7147）
-3. モデル構築
+3. モデル構築 <br>
 　- SVM, RandomForest, XGBClassifier
-4.	モデル選択
+4.	モデル選択 <br>
 　- RandomForestに決定
 5. テストデータに対し予測
 
