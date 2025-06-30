@@ -24,14 +24,14 @@
 
 
 ## 前処理, 特徴量エンジニアリング内容
-- カテゴリ変換
-　-sex　 ：male / female → 1 / 0
-　-smoker：yes / no → 1 / 0
-- ダミー化
-　-region → region_northeast, region_northwest, region_southeast, region_southwest
-- 標準化
-　-age：標準化
-　-bmi：標準化
+### カテゴリ変換
+　- sex　 ：male / female → 1 / 0
+　- smoker：yes / no → 1 / 0
+### ダミー化
+　- region → region_northeast, region_northwest, region_southeast, region_southwest
+### 標準化
+　- age：標準化
+　- bmi：標準化
 
 ## プロセス
 1. 前処理, 特徴量エンジニアリング
